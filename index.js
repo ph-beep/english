@@ -1,4 +1,9 @@
-const {Person} = require("./person");
+const dotenv = require("dotenv");
+const connectToDatabase = require("./scr/database/connect");
 
-const person = new Person("Pedro");
-console.log(person.sayMyname());
+dotenv.config();
+connectToDatabase();
+
+// require("./modules/fs")
+// require("./modules/http");
+// require("./modules/path");
