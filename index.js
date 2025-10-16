@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-const connectToDatabase = require("./scr/database/connect");
+const connectToDatabase = require("./scr/database/connect")
 
 dotenv.config();
 connectToDatabase();
