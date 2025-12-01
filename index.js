@@ -1,9 +1,9 @@
+// const { Person } = require("./person");
 const dotenv = require("dotenv");
-const connectToDatabase = require("./scr/database/connect")
+const connectToDatabase = require("./src/database/connect");
 
 dotenv.config();
 connectToDatabase();
 
-// require("./modules/fs")
-// require("./modules/http");
-// require("./modules/path");
+
+require("./modules/express");
